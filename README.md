@@ -119,7 +119,7 @@ cd ORB_SLAM3_AQUALOC
 
 ### 2. Download AQUALOC Dataset
 
-Download the Harbor sequences from the [AQUALOC dataset](http://www.music-project.it/aqualoc-dataset/) and place them in `Datasets/AQUALOC/Harbor/`.
+Download the Harbor sequences from the [AQUALOC dataset](https://www.lirmm.fr/aqualoc/) and place them in `Datasets/AQUALOC/Harbor/`.
 
 ### 3. Build ORB-SLAM3
 
@@ -228,7 +228,7 @@ tile_size = (8, 8)    # Grid size for local histogram equalization
 
 ## Dataset
 
-This project uses the [AQUALOC Dataset](http://www.music-project.it/aqualoc-dataset/):
+This project uses the [AQUALOC Dataset](https://www.lirmm.fr/aqualoc/):
 
 - **Environment**: Harbor and Archaeological sites
 - **Depth**: Up to 380 meters
@@ -240,7 +240,7 @@ This project uses the [AQUALOC Dataset](http://www.music-project.it/aqualoc-data
 
 - [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) - Campos et al., IEEE T-RO 2021
 - [FUnIE-GAN](https://github.com/xahidbuffon/FUnIE-GAN) - Islam et al., IEEE RA-L 2020
-- [AQUALOC Dataset](http://www.music-project.it/aqualoc-dataset/) - Ferrera et al., IROS 2019
+- [AQUALOC Dataset](https://www.lirmm.fr/aqualoc/) - Ferrera et al., IROS 2019
 
 ## Citation
 
