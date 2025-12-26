@@ -1,0 +1,66 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# AQUALOC Harbor Sequences - Camera Parameters (Fisheye/Kannala-Brandt Model)
+# For Harbour_sequence01 through Harbour_sequence07
+#--------------------------------------------------------------------------------------------
+
+# Camera type: "PinHole" or "KannalaBrandt8"
+Camera.type: "KannalaBrandt8"
+
+# Camera resolution
+Camera.width: 640
+Camera.height: 512
+
+# Camera frames per second
+Camera.fps: 20
+
+# Color order of the images (0: BGR, 1: RGB. Ignored for grayscale)
+Camera.RGB: 0
+
+# Fisheye camera intrinsics (Kannala-Brandt model)
+# From AQUALOC calibration files
+Camera.fx: 256.214
+Camera.fy: 256.571
+Camera.cx: 330.685
+Camera.cy: 261.372
+
+# Fisheye distortion parameters (k1, k2, k3, k4)
+Camera.k1: -0.0626187
+Camera.k2: 0.0174982
+Camera.k3: -0.0102171
+Camera.k4: 0.00198907
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+# Number of features per image
+# Increased for underwater low-texture environments
+ORBextractor.nFeatures: 2000
+
+# Scale factor between levels in the scale pyramid
+ORBextractor.scaleFactor: 1.2
+
+# Number of levels in the scale pyramid
+ORBextractor.nLevels: 8
+
+# Fast threshold
+# Lower values detect more features (helpful underwater)
+ORBextractor.iniThFAST: 15
+ORBextractor.minThFAST: 5
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -3.5
+Viewer.ViewpointF: 500

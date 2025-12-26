@@ -1,0 +1,67 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# AQUALOC Archaeological Sequences - Camera Parameters (Pinhole + RadTan)
+# For Archaeological_sequence01 through Archaeological_sequence10
+#--------------------------------------------------------------------------------------------
+
+# Camera type
+Camera.type: "PinHole"
+
+# Camera resolution
+Camera.width: 968
+Camera.height: 608
+
+# Camera frames per second
+Camera.fps: 20
+
+# Color order of the images (0: BGR, 1: RGB. Ignored for grayscale)
+Camera.RGB: 0
+
+# Pinhole camera intrinsics
+# From AQUALOC calibration files
+Camera.fx: 519.538
+Camera.fy: 519.846
+Camera.cx: 481.444
+Camera.cy: 316.168
+
+# Radial-tangential distortion parameters
+Camera.k1: -0.207478
+Camera.k2: 0.0540258
+Camera.p1: 0.0
+Camera.p2: 0.0
+Camera.k3: 0.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+# Number of features per image
+# Higher value for challenging underwater conditions
+ORBextractor.nFeatures: 2000
+
+# Scale factor between levels in the scale pyramid
+ORBextractor.scaleFactor: 1.2
+
+# Number of levels in the scale pyramid
+ORBextractor.nLevels: 8
+
+# Fast threshold
+# Lower for underwater low-contrast imagery
+ORBextractor.iniThFAST: 12
+ORBextractor.minThFAST: 5
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -3.5
+Viewer.ViewpointF: 500

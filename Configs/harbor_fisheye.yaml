@@ -1,0 +1,60 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters for AQUALOC Harbor Sequences
+# Resolution: 640x512
+#--------------------------------------------------------------------------------------------
+
+Camera.type: "PinHole"
+
+# Camera intrinsics
+Camera.fx: 450.0
+Camera.fy: 450.0
+Camera.cx: 320.0
+Camera.cy: 256.0
+
+# Distortion parameters
+Camera.k1: 0.0
+Camera.k2: 0.0
+Camera.p1: 0.0
+Camera.p2: 0.0
+
+# Camera resolution - matches actual images
+Camera.width: 640
+Camera.height: 512
+
+# Frame rate
+Camera.fps: 20.0
+
+# Color order (0: BGR, 1: RGB)
+Camera.RGB: 1
+
+# Required parameters
+Camera.bf: 40.0
+ThDepth: 40.0
+DepthMapFactor: 1.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters - tuned for underwater
+#--------------------------------------------------------------------------------------------
+
+ORBextractor.nFeatures: 2500
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 15
+ORBextractor.minThFAST: 5
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -3.0
+Viewer.ViewpointF: 500

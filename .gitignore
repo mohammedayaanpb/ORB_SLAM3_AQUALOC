@@ -1,0 +1,103 @@
+# ============================================
+# .gitignore for ORB_SLAM3_AQUALOC Project
+# ============================================
+
+# -----------------
+# Dataset files (too large for GitHub)
+# -----------------
+Datasets/
+*.bag
+*.png
+*.jpg
+*.jpeg
+
+# -----------------
+# Preprocessed images (can be regenerated)
+# -----------------
+Preprocessed/
+
+# -----------------
+# Build directories
+# -----------------
+build/
+build_ros/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# -----------------
+# Compiled libraries and executables
+# -----------------
+*.so
+*.so.*
+*.a
+*.o
+*.out
+lib/
+devel/
+
+# -----------------
+# ORB-SLAM3 specific
+# -----------------
+ORB_SLAM3/Vocabulary/ORBvoc.txt
+ORB_SLAM3/lib/
+ORB_SLAM3/build/
+ORB_SLAM3/Examples/Monocular/mono_*
+ORB_SLAM3/Examples/Stereo/stereo_*
+ORB_SLAM3/Examples/RGB-D/rgbd_*
+ORB_SLAM3/Examples/Monocular-Inertial/mono_inertial_*
+ORB_SLAM3/Examples/Stereo-Inertial/stereo_inertial_*
+ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/
+
+# -----------------
+# Thirdparty builds
+# -----------------
+ORB_SLAM3/Thirdparty/DBoW2/build/
+ORB_SLAM3/Thirdparty/DBoW2/lib/
+ORB_SLAM3/Thirdparty/g2o/build/
+ORB_SLAM3/Thirdparty/g2o/lib/
+ORB_SLAM3/Thirdparty/Sophus/build/
+
+# -----------------
+# Results (optional - uncomment if you want to track results)
+# -----------------
+# Results/
+
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# -----------------
+# IDE and Editor files
+# -----------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# -----------------
+# OS files
+# -----------------
+.DS_Store
+Thumbs.db
+
+# -----------------
+# Logs and temporary files
+# -----------------
+*.log
+*.tmp
+*.temp
