@@ -263,5 +263,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - [ORB-SLAM3 Authors](https://github.com/UZ-SLAMLab/ORB_SLAM3) for the foundational SLAM framework
-- [AQUALOC Dataset Authors](http://www.music-project.it/aqualoc-dataset/) for the underwater benchmark
+- [AQUALOC Dataset Authors](https://www.lirmm.fr/aqualoc/) for the underwater benchmark
 - [FUnIE-GAN Authors](https://github.com/xahidbuffon/FUnIE-GAN) for the underwater image enhancement model
